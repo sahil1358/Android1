@@ -13,33 +13,37 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    private void showMessageText(String text)
+    {
+        Toast.makeText(this,text,Toast.LENGTH_SHORT).show();
+    }
     public void onButton1(View view)
     {
-        Toast.makeText(this,"This button will launch popular movies app",Toast.LENGTH_SHORT).show();
+        showMessageText("This button will launch popular movies app");
     }
 
     public void onButton2(View view)
     {
-        Toast.makeText(this,"This button will launch my stock hawk app",Toast.LENGTH_SHORT).show();
+        showMessageText("This button will launch my stock hawk app");
     }
 
     public void onButton3(View view)
     {
-        Toast.makeText(this,"This button will launch build it bigger app",Toast.LENGTH_SHORT).show();
+        showMessageText("This button will launch build it bigger app");
     }
 
     public void onButton4(View view)
     {
-        Toast.makeText(this,"This button will launch your own app material app",Toast.LENGTH_SHORT).show();
+        showMessageText("This button will launch your own app material app");
     }
 
     public void onButton5(View view)
     {
-        Toast.makeText(this,"This button will launch go ubiquitous app",Toast.LENGTH_SHORT).show();
+        showMessageText("This button will launch go ubiquitous app");
     }
 
     public void onButton6(View view)
     {
-        Toast.makeText(this,"This button will launch my capstone app",Toast.LENGTH_SHORT).show();
+        showMessageText("This button will launch my capstone app");
     }
 }
